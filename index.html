@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>дз 3</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            padding: 10px;
+            border: 1px solid #2a2a2a;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Завдання № 1  -->
+    <h2>строчные теги</h2>
+    <ul>
+        <li>&lt;a&gt; это короче типо что бы короче для ссылок и ну короче такого вот</li>
+        <li>&lt;span&gt; квадратик короче типо для инфы который ты потом с css украшаешь</li>
+        <li>&lt;b&gt; чтоб текст был толще</li>
+        <li>&lt;em&gt; что б короче текст был под наклоном</li>
+        <li>&lt;i&gt; тоже короче под наклоном но по другому</li>
+        <li>&lt;input&gt; ну кнопочки, поля, туда сюда</li>
+        <li>&lt;img&gt; это короче для фоток</li>
+        <li>&lt;button&gt; это короче кнопка</li>
+        <li>&lt;abbr&gt; для аббревиатур</li>
+        <li>&lt;mark&gt; это короче желтым выделяет текст</li>
+    </ul>
+    <h2>блочные теги</h2>
+    <ul>
+        <li>&lt;p&gt; обзац</li>
+        <li>&lt;div&gt; что бы группировать инфу в банды</li>
+        <li>&lt;main&gt; там где короче основная инфа</li>
+        <li>&lt;aside&gt; что то типо информотеки</li>
+        <li>&lt;header&gt; шапка сайта</li>
+        <li>&lt;footer&gt; подвал короче сайта, там где не очень важная инфа</li>
+        <li>&lt;h1&gt; заголовок</li>
+        <li>&lt;address&gt; ну... адрес</li>
+        <li>&lt;body&gt; там где короче вся инфа сайта</li>
+        <li>&lt;section&gt; секции инфы</li>
+
+    </ul>
+    <!-- Завдання № 2  -->
+
+
+    <table>
+
+
+        <caption>
+            Horario
+        </caption>
+
+        <thead>
+
+
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:15-9:10</td>
+                <td>Plástica</td>
+                <td>Francés</td>
+                <td>Mates</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+            </tr>
+            <tr>
+                <td>9:10-10:05</td>
+                <td>Lengua</td>
+                <td>Qª y Fª</td>
+                <td>Música</td>
+                <td>E.F</td>
+                <td>Mates</td>
+            </tr>
+            <tr>
+                <td>10:05-11:00</td>
+                <td>Valores</td>
+                <td>Gª y Hª</td>
+                <td>Francés</td>
+                <td>Mates</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>11:00-11:30</td>
+                <th colspan="5">Recreo</th>
+            </tr>
+            <tr>
+                <td>11:30-12:25</td>
+                <td>Mates</td>
+                <td>Inglés</td>
+                <td>Lengua</td>
+                <td>Gª y Hª</td>
+                <td>Qª y Fª</td>
+            </tr>
+            <tr>
+                <td>12:25-13:20</td>
+                <td>Música</td>
+                <td>Plástica</td>
+                <td>E.F</td>
+                <td>Inglés</td>
+                <td>Valores</td>
+            </tr>
+            <tr>
+                <td>13:25-14:15</td>
+                <td>Qª y Fª</td>
+                <td>Biología</td>
+                <td>Tecnología</td>
+                <td>Francés</td>
+                <td>какая то фигня</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    <!-- задание № 3 -->
+    <form>
+        <h4>Оставте свои данные, но мы вряд-ли с вами свяжемся</h4>
+        <label for="name">
+            введите имя
+        </label>
+        <input type="text" id="name"><br>
+
+        <label for="email">
+            введите почту
+        </label>
+        <input type="email" id="email"><br>
+        <label for="tel">
+            введите номер телефона
+        </label>
+        <input type="tel" id="tel" placeholder="(+34)62-47-01-88-1"><br>
+        <label for="text">
+            Ссылка в сибирь, фейсбук, линкедин или СV(о)
+            <input type="url" id="text">
+        </label><br>
+        <label for="text">
+            какой то там лист
+        </label>
+        <textarea>тут надо что то написать</textarea>
+        <button type="submit">submit</button><br>
+        <label for="blablabla">
+            Политика конфиденциальности
+            <input type="checkbox" id="blablabla"><br>
+        </label>
+        <label for="file">
+            прикрепите файл
+            <input type="file"> 
+        </label>
+
+
+
+    </form>
+
+</body>
+
+</html>
